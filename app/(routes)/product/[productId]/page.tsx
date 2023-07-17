@@ -42,7 +42,7 @@ const ProductPage: React.FC<ProductPageProps> = async ({ params }) => {
           <hr className="my-10" />
           {suggestedProductsFormatted ? (
             <ProductList
-              title="Related Items"
+              title="Ttens relacionados"
               items={suggestedProductsFormatted}
             />
           ) : (
